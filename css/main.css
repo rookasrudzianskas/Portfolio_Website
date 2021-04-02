@@ -385,3 +385,16 @@ flex-direction: column;
   font-weight: 300;
   align-items: center;
 }
+
+@media (max-width: 1200px) {
+  .services {
+    height: auto;
+    flex-wrap: wrap;
+
+  }
+
+  .service {
+    margin: 3rem 2rem;
+  }
+
+}
